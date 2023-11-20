@@ -1,12 +1,12 @@
 # Final Project SO S3
-Tugas Akhir Sistem Operasi
-SSH SERVER dan WEB SERVER
+Tugas Akhir OS Server & Sistem Admin
+Minecraftt Server Ubuntu 22.04
 
 # Machine
 - CPU		: Intel G4560
 - Memory	: 16GB
 - Storage	: 500GB
-- OS		: Ubuntu 22.04, Windows 11 Pro, Centos 7
+- OS		: Ubuntu 22.04, Windows 11 Pro
 
 # SSH Server
 ## Installasi dan Konfigurasi SSH Server
