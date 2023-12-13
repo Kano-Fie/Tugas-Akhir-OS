@@ -51,7 +51,7 @@ OS Server & Sistem Admin
    nano server.propties
    ```
 10. Run Server
-   ```sh
+    ```sh
    java -Xmx1024M -Xms1024M -jar server.jar nogui
    ```
    
