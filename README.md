@@ -1,6 +1,5 @@
-# Final Project SO S3
-Tugas Akhir OS Server & Sistem Admin
-Minecraftt Server Ubuntu 22.04
+# Final Project 
+OS Server & Sistem Admin
 
 # Machine
 - CPU		: Intel G4560
@@ -8,15 +7,34 @@ Minecraftt Server Ubuntu 22.04
 - Storage	: 500GB
 - OS		: Ubuntu 22.04, Windows 11 Pro
 
-# SSH Server
-## Installasi dan Konfigurasi SSH Server
-Install OpenSSH Server
-- sudo apt update
-- sudo apt install openssh-server
-
-## Ubuntu-22.04-Web-Server-Setup
-## Using nginx, php, mariadb, and adminer.php to setup a web server.
-Describes the linux commands needed to set up a web server on ubuntu 22.04
-We start from the idea that you already have an ssh file private key to connect to the ubuntu server as root user where you will carry out the installation.
-
-Note: As is obvious and expected, some words like: your_server_ip, your_ssh_file, your_port, your_domain, your_new_user, dbAdmin, your_db_password and others can or should be replaced with your server connection information or data. I hope you have already purchased a domain from amazon aws, godaddy, digitalocean or any other dns or web hosting provider. And they have already provided you with all this information with which to replace the words said above. Of course, the password for your ubuntu user and mysql (mariaDB) user will have to be decided by you. This is not going to be given to you by any web service provider.
+# Server Minecraft Java Edition on Ubuntu 22.04
+![Yoimiyaaa❤](https://static.wikia.nocookie.net/logopedia/images/a/aa/Minecraft-java-logo.png/revision/latest/scale-to-width-down/1000?cb=20190316052713)
+1. Update Repository
+    ```sh
+    sudo apt upgrade && sudo apt update
+2. Install Htop
+    ```sh
+    sudo apt install htop
+    ```
+3. Install JDK dan Screen
+   ```sh
+   sudo apt install openjdk-19-jre-headless wget screen
+   ```
+4. Membuat Folder Minecraft Server
+   ```sh
+   mkdir mc_server
+   ```
+5. Download Minecraft latest version
+    ```sh
+   https://piston-data.mojang.com/v1/objects/8dd1a28015f51b1803213892b50b7b4fc76e594d/server.jar
+   ```
+6. Allow SSH dan Port
+   ```sh
+   sudo ufw allow OpenSSH
+   ```
+   ```sh
+   sudo ufw allow 25565
+   ```
+    ```sh
+   sudo ufw enable
+   ```
