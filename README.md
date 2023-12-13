@@ -29,7 +29,7 @@ OS Server & Sistem Admin
    https://piston-data.mojang.com/v1/objects/8dd1a28015f51b1803213892b50b7b4fc76e594d/server.jar
    ```
 6. Allow SSH dan Port
-   ```sh
+    ```sh
    sudo ufw allow OpenSSH
    ```
    ```sh
@@ -38,3 +38,20 @@ OS Server & Sistem Admin
     ```sh
    sudo ufw enable
    ```
+7. Open File Jar
+    ```sh
+   java -Xmx1024M -Xms1024M -jar server.jar
+   ```
+8. Setting eula.txt
+    ```sh
+    nano eula.txt
+    ```
+9. Setting Server Minecraft
+    ```sh
+   nano server.propties
+   ```
+10. Run Server
+   ```sh
+   java -Xmx1024M -Xms1024M -jar server.jar nogui
+   ```
+   
