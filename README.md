@@ -1,8 +1,14 @@
-# Final Project 
-OS Server & Sistem Admin
-# Nama & Nim
-- Khoirul Umar Rizki
-- 22.83.0902
+# TUGAS AKHIR 
+
+### Server Minecraft Java Edition on Ubuntu 22.04
+
+![Yoimiyaaa❤](https://static.wikia.nocookie.net/logopedia/images/a/aa/Minecraft-java-logo.png/revision/latest/scale-to-width-down/1000?cb=20190316052713)
+
+## Nama & Nim
+
+Khoirul Umar Rizki
+
+22.83.0902
 
 # Machine
 - CPU		: Intel G4560
@@ -13,8 +19,8 @@ OS Server & Sistem Admin
 - OpenJDK
 - Minimal RAM 4GB
 - CPU with good single-core performance
-# Server Minecraft Java Edition on Ubuntu 22.04
-![Yoimiyaaa❤](https://static.wikia.nocookie.net/logopedia/images/a/aa/Minecraft-java-logo.png/revision/latest/scale-to-width-down/1000?cb=20190316052713)
+
+## Installation
 1. Update Repository
     ```sh
     sudo apt upgrade && sudo apt update
