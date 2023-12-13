@@ -52,6 +52,6 @@ OS Server & Sistem Admin
    ```
 10. Run Server
     ```sh
-   java -Xmx1024M -Xms1024M -jar server.jar nogui
-   ```
+    java -Xmx1024M -Xms1024M -jar server.jar nogui
+    ```
    
